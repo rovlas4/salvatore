@@ -29,7 +29,7 @@ export class HomePage {}
   template: `
     <section class="page">
       <header class="page-header">
-        <h1>Men��</h1>
+        <h1>Menú</h1>
         <p class="muted">Listado de platillos con filtros por categoría.</p>
       </header>
       <div class="filters">
@@ -168,13 +168,13 @@ export class CartPage {}
       </header>
       <form class="form two-col">
         <div class="form-col">
-          <div class="form-row"><label>Nombre</label><input class="input" type="text" placeholder="Tu nombre" /></div>
-          <div class="form-row"><label>Dirección</label><input class="input" type="text" placeholder="Calle y número" /></div>
-          <div class="form-row"><label>Ciudad</label><input class="input" type="text" placeholder="Ciudad" /></div>
-          <div class="form-row"><label>Código Postal</label><input class="input" type="text" placeholder="CP" /></div>
+          <div class="form-row"><label>Nombre</label><input class="input" type="text"/></div>
+          <div class="form-row"><label>Calle y número</label><input class="input" type="text"/></div>
+          <div class="form-row"><label>Colonia</label><input class="input" type="text"/></div>
+          <div class="form-row"><label>Código Postal</label><input class="input" type="text"/></div>
         </div>
         <div class="form-col">
-          <div class="card summary">
+          <div class="card-summary">
             <h3>Resumen</h3>
             <div class="summary-row"><span>Productos</span><span>$0.00</span></div>
             <div class="summary-row"><span>Entrega</span><span>$0.00</span></div>
