@@ -1,9 +1,9 @@
 :root {
   --bg: #ffffff;
   --text: #0a0a0a;
-  --muted: #6b7280; /* gris medio */
-  --soft: #e5e7eb;  /* gris claro bordes */
-  --soft-2: #f3f4f6; /* gris muy claro fondo */
+  --muted: #6b7280;
+  --soft: #e5e7eb;
+  --soft-2: #f3f4f6;
   --black: #000000;
 }
 

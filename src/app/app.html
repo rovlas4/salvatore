@@ -1,24 +1,7 @@
-<nav class="navbar">
-  <div class="container">
-    <a class="brand" routerLink="/">salvatoré</a>
-    <div class="nav-links">
-      <a routerLink="/menu" routerLinkActive="active">Menú</a>
-      <a routerLink="/cart" routerLinkActive="active">Carrito</a>
-      <a routerLink="/orders" routerLinkActive="active">Mis pedidos</a>
-      <a routerLink="/profile" routerLinkActive="active">Perfil</a>
-      <a class="btn btn-small" routerLink="/login" style="color: aliceblue;">Entrar</a>
-    </div>
-  </div>
-</nav>
+<app-navbar />
 
 <main class="container">
   <router-outlet />
 </main>
 
-<footer class="footer">
-  <div class="container">
-    <span class="muted">© 2025 Restaurante Salvatore</span>
-    <span class="muted">·</span>
-    <a class="link" routerLink="/admin">Admin</a>
-  </div>
-</footer>
+<app-footer />

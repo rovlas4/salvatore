@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { App } from './app';
+// Update imports to ensure standalone components are resolved correctly during tests
 
 describe('App', () => {
   beforeEach(async () => {
